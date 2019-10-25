@@ -3,27 +3,59 @@ html {
 }
 
 body {
-	background-color: #d6dede;
+	background-color: #D6DEDE;
 }
 
 h1 {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
 	text-align: center;
-	background-color: #a5b9b9;
-	line-height: 3.5em;
+	background-color: #A5B9B9;
 	font-weight: 500;
+}
+
+h3 {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	text-align: center;
+}
+
+fieldset {
+	border: none;
+	border-top: 1px solid #6A3D3B;
+}
+
+legend {
+		margin: auto;
+		text-align: center;
+		border: none;
+		padding: 0 10px;
+		font-size: 18px;
+		letter-spacing: 0.01em;
+		font-family: 'Open Sans', Verdana, Arial, sans-serif;
+		font-weight: 600;
 }
 
 footer {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
 	text-align: center;
-	background-color: #a5b9b9;
+	background-color: #A5B9B9;
 	padding-top: 20px;
 	font-weight: 400;
 }
 
 footer a {
 	display: block;
+}
+
+nav {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 1.2em;
+	text-shadow: -.5px .5px 0 #000;
+}
+
+nav a {
+	margin-right: 20px;
 }
 
 #main {
@@ -62,21 +94,28 @@ figure img.shoppic {
 	height: 320px;
 }
 
-#bannerpic {
-	background-image: url("images/outdoors.jpg");
-	background-repeat: no-repeat;
-	margin-left: 200px;
+.banrimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	width: 192px;
+	height: 120px;
+	border-radius: 5px;
 }
 
 #h1background {
-	background-color: #a5b9b9;
+	background-color: #A5B9B9;
+	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 p, figcaption{
-	color: #517f7f;
+	color: #517F7F;
 }
 
-h1 {
+h1, h3, legend {
 	color: #6A3D3B;
 }
 
@@ -87,8 +126,13 @@ p {
 
 figcaption {
 	font-family: 'Oswald', Verdana, Arial, sans-serif;
-	font-weight: 500;
-	font-size: .9em;
+	font-weight: 400;
+	text-shadow: -.5px .5px 0 #000;
+}
+
+figure img {
+	padding-top: 0px;
+	border: .2em solid #FFF;
 }
 
 a {
@@ -101,7 +145,7 @@ a:link {
 }
 
 a:visited {
-	color: #517f7f;
+	color: #517F7F;
 }
 
 a:hover {
@@ -128,6 +172,8 @@ a:hover {
 .toTop:link {
 	color: black;
 }
+
+.clearfloat {clear: both;}
 
 .conclusion {
 	clear: left;

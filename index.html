@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Janet Blohn</title>
+		<title>Jeremy Hoich bioSite</title>
 		<meta name="description"
 			content="bioSite Project" />
 		<meta name="keywords"
@@ -17,16 +17,23 @@
 		<link href="https://fonts.googleapis.com/css?family=Cardo,Cormorant+Garamond,Dosis,Montserrat,Noto+Sans,Nunito,Open+Sans,Poppins,Roboto,Work+Sans&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans,IBM+Plex+Serif,Notable&display=swap" rel="stylesheet">
-		<!-- link href="https://fonts.googleapis.com/css?family=Oswald:300,500,700,Quattrocento:400,700&display=swap" rel="stylesheet" -->
 		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
 		<div id="main">
 			<header id="top">
 				<div id="h1background">
-					<h1 id="bannerpic">Bio on Jeremy Hoich</h1></div>
+					<h1>Bio on Jeremy Hoich</h1>
+					<img src="images/outdoors.jpg" alt="Jeremy Sitting Outdoors" class="banrimg" title="Jeremy"/>
+					<nav>
+						<a href="#briefhist">Brief History</a>
+						<a href="#pastimes">Favorite Pastimes</a>
+						<a href="#creative">Creativity</a>
+						<a href="#conclude">Conclusion</a>
+				</div>
 			</header>
-			<article>
+			<article id="briefhist">
+				<legend>Brief History</legend>
 				<section class="column">
 					<figure>
 						<img src="images/babies.jpg" alt="Jeremy and Justin as babies" class="widepic" title="The twins as babies"/>
@@ -43,7 +50,10 @@
 					</figure>
 				</section>
 			</article>
-			<article>
+			<article id="pastimes">
+				<fieldset>
+					<legend>Favorite Pastimes</legend>
+			</fieldset>
 				<section class="column">
 					<figure>
 						<img src="images/snowboarding.jpg" alt="Jeremy with Justin Snowboarding" class="longpic" title="Snowboarding with Justing in Vale"/>
@@ -61,7 +71,10 @@
 					</figure>
 				</section>
 			</article>
-			<article>
+			<article id="creative">
+				<fieldset>
+					<legend>Creativity</legend>
+				</fieldset>
 				<section class="column">
 					<figure>
 						<img src="images/glassblowing.jpg" alt="Jeremy Glassblowing" class="shoppic" title="Blowing glass"/>
@@ -69,7 +82,11 @@
 					</figure>
 				</section>
 				<section class="pcolumn">
-					<p>Jeremy recently learned the art of glassblowing.  He just found a place to set up his workshop, and is in the process of starting a business creating and selling his artwork.  He has already sold some of his pieces, which were glass blown pendants.</p>
+					<p>Jeremy recently learned the art of glassblowing.  He just found a place to set up his workshop, and is in the process of starting a business creating and selling his artwork.  He has already sold some of his pieces, and given others as gifts.</p>
+					<figure>
+						<img src="images/squirrel.jpg" alt="Handblown Squirrel made by Jeremy" class="widepic" title="Handblown squirrel"/>
+						<figcaption>This is a squirrel eating a sandwich that Jeremy made from a memory.</figcaption>
+					</figure>
 				</section>
 				<section class="column">
 					<figure>
@@ -78,7 +95,10 @@
 					</figure>
 				</section>
 			</article>
-			<article class="conclusion">
+				<fieldset class="clearfloat">
+					<legend>Conclusion</legend>
+				</fieldset>
+			<article id="conclude" class="conclusion">
 				<p>I’m very proud of my nephew.  It takes a lot of courage to start up a business, especially at such a young age.  That being said, I have no doubt that he will be successful in any career he chooses.</p>
 			</article>
 		</div>
