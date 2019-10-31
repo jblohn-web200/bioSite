@@ -51,17 +51,11 @@ nav {
 	padding-top: 10px;
 	padding-bottom: 20px;
 	font-size: 1.2em;
-	text-shadow: -.5px .5px 0 #000;
+	text-shadow: -.5px .5px 0 #000;  /*vendor prefix not required per caniuse.com*/
 }
 
 nav a {
 	margin-right: 20px;
-}
-
-#main {
-	width: 100%;
-	max-width: 100%;
-	margin: 0px auto;
 }
 
 section {
@@ -94,22 +88,6 @@ figure img.shoppic {
 	height: 320px;
 }
 
-.banrimg {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 0px;
-	margin-bottom: 10px;
-	width: 192px;
-	height: 120px;
-	border-radius: 5px;
-}
-
-#h1background {
-	background-color: #A5B9B9;
-	margin-bottom: 20px;
-	padding-top: 20px;
-}
 
 p, figcaption{
 	color: #517F7F;
@@ -153,6 +131,23 @@ a:hover {
 	font-size: 1.5em;
 }
 
+#h1background {
+	background-color: #A5B9B9;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.banrimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	width: 192px;
+	height: 120px;
+	border-radius: 5px;
+}
+
 .column {
 	width: 33%;
 	float: left;
@@ -183,12 +178,10 @@ a:hover {
 	padding: 20px;
 }
 
-.leftpic {
-	float: left;
-	margin-right: 10px;
+.noborder {
+	border: none;
 }
 
-.rightpic {
-	float: right;
-	margin-left: 10px;
+.extrapadding {
+	padding-bottom: 50px;
 }

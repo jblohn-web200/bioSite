@@ -20,7 +20,9 @@
 		<link href="style.css" rel="stylesheet">
 	</head>
 	<body>
-		<div id="main">
+		<!-- This is where the main part begins -->
+		<main>
+			<!-- The header element contains the title and navigation links to other sections of the page -->
 			<header id="top">
 				<div id="h1background">
 					<h1>Bio on Jeremy Hoich</h1>
@@ -30,78 +32,72 @@
 						<a href="#pastimes">Favorite Pastimes</a>
 						<a href="#creative">Creativity</a>
 						<a href="#conclude">Conclusion</a>
+					</nav>
 				</div>
 			</header>
-			<article id="briefhist">
-				<legend>Brief History</legend>
-				<section class="column">
-					<figure>
-						<img src="images/babies.jpg" alt="Jeremy and Justin as babies" class="widepic" title="The twins as babies"/>
-						<figcaption>Jeremy (left) with his brother Justin as babies.</figcaption>
-					</figure>
-				</section>
-				<section class="pcolumn">
-					<p>My nephew Jeremy was born and raised in Omaha, NE along with his twin brother, Justin.  I spent a lot of time with both of them when they were younger; so much so that when one of Jeremy’s Kindergarten homework questions was “Who’s your best friend?”, his response was “Aunt Janet”.</p>
-				</section>
-				<section class="column">
-					<figure>
-						<img src="images/Jeremy_and_Justin.jpg" alt="Jeremy and Justin Today" class="today" title="The twins grown up"/>
-						<figcaption>Jeremy (left) with his brother Justin today.</figcaption>
-					</figure>
-				</section>
-			</article>
-			<article id="pastimes">
+			<!-- A brief history of the individual -->
+			<div id="briefhist">
+				<fieldset class="noborder">
+					<legend>Brief History</legend>
+				</fieldset>
+				<figure class="column">
+					<img src="images/babies.jpg" alt="Jeremy and Justin as babies" class="widepic" title="The twins as babies"/>
+					<figcaption>Jeremy (left) with his brother Justin as babies.</figcaption>
+				</figure>
+				<p class="pcolumn">My nephew Jeremy was born and raised in Omaha, NE along with his twin brother, Justin.  I spent a lot of time with both of them when they were younger; so much so that when one of Jeremy’s Kindergarten homework questions was “Who’s your best friend?”, his response was “Aunt Janet”.</p>
+				<figure class="column">
+					<img src="images/Jeremy_and_Justin.jpg" alt="Jeremy and Justin Today" class="today" title="The twins grown up"/>
+					<figcaption>Jeremy (left) with his brother Justin today.</figcaption>
+				</figure>
+			</div>
+			<!-- A couple of pastimes are discussed here -->
+			<div id="pastimes">
 				<fieldset>
 					<legend>Favorite Pastimes</legend>
-			</fieldset>
-				<section class="column">
-					<figure>
-						<img src="images/snowboarding.jpg" alt="Jeremy with Justin Snowboarding" class="longpic" title="Snowboarding with Justing in Vale"/>
-						<figcaption>Jeremy and Justin snowboarding in Vale.</figcaption>
-					</figure>
-				</section>
-				<section class="pcolumn">
-					<p>He has enjoyed sports throughout his entire life.  He played softball at a very early age.  He began playing league soccer when he was in grade school, and remained on the same team until he graduated from high school, and also played for Millard West all three years that he attended.</p>
+				</fieldset>
+				<figure class="column">
+					<img src="images/snowboarding.jpg" alt="Jeremy with Justin Snowboarding" class="longpic" title="Snowboarding with Justing in Vale"/>
+					<figcaption>Jeremy and Justin snowboarding in Vale.</figcaption>
+				</figure>
+				<div class="pcolumn">
+					<p>He has enjoyed sports throughout his entire life.  He played softball at a very early age.  He began playing league soccer when he was in grade school, and remained on the same team until he graduated from high school, and also played for Millard West all four years that he attended.</p>
 					<p>His Dad started a tradition of taking him and Justin on a yearly fishing trip to Minnesota, and it continues to this day.  They cook the Walleye and Pike they catch when they come home, and share it at a dinner with the entire family.  He and his brother also enjoy snowboarding, and he went almost everyday when he spent a year living near Denver, CO.</p>
-				</section>
-				<section class="column">
-					<figure>
-						<img src="images/with_fish.jpg" alt="Jeremy Holding a Fish" class="longpic" title="Holding a fish caught on fishing trip"/>
-						<figcaption>Holding a fish caught on his annual fishing trip.</figcaption>
-					</figure>
-				</section>
-			</article>
-			<article id="creative">
+				</div>
+				<figure class="column extrapadding">  <!-- Extra padding was added to the bottom of this section to balance with the other sections -->
+					<img src="images/with_fish.jpg" alt="Jeremy Holding a Fish" class="longpic" title="Holding a fish caught on fishing trip"/>
+					<figcaption>Holding a fish caught on his annual fishing trip.</figcaption>
+				</figure>
+			</div>
+			<!-- This section covers what he's currently doing -->
+			<div id="creative">
 				<fieldset>
 					<legend>Creativity</legend>
 				</fieldset>
-				<section class="column">
-					<figure>
-						<img src="images/glassblowing.jpg" alt="Jeremy Glassblowing" class="shoppic" title="Blowing glass"/>
-						<figcaption>Jeremy in his shop glassblowing.</figcaption>
-					</figure>
-				</section>
-				<section class="pcolumn">
+				<figure class="column">
+					<img src="images/glassblowing.jpg" alt="Jeremy Glassblowing" class="shoppic" title="Blowing glass"/>
+					<figcaption>Jeremy in his shop glassblowing.</figcaption>
+				</figure>
+				<div class="pcolumn">
 					<p>Jeremy recently learned the art of glassblowing.  He just found a place to set up his workshop, and is in the process of starting a business creating and selling his artwork.  He has already sold some of his pieces, and given others as gifts.</p>
 					<figure>
 						<img src="images/squirrel.jpg" alt="Handblown Squirrel made by Jeremy" class="widepic" title="Handblown squirrel"/>
 						<figcaption>This is a squirrel eating a sandwich that Jeremy made from a memory.</figcaption>
 					</figure>
-				</section>
-				<section class="column">
-					<figure>
-						<img src="images/cat_by_Jeremy.jpg" alt="Cat Pendant made by Jeremy" class="longpic" title="Hand blown cat"/>
-						<figcaption>A cat pendant made by Jeremy.</figcaption>
-					</figure>
-				</section>
-			</article>
+				</div>
+				<figure class="column">
+					<img src="images/cat_by_Jeremy.jpg" alt="Cat Pendant made by Jeremy" class="longpic" title="Hand blown cat"/>
+					<figcaption>A cat pendant made by Jeremy.</figcaption>
+				</figure>
+			</div>
 				<fieldset class="clearfloat">
 					<legend>Conclusion</legend>
 				</fieldset>
-			<article id="conclude" class="conclusion">
+				<!-- A concluding sentence that is centered below the sections -->
+			<div id="conclude" class="conclusion">
 				<p>I’m very proud of my nephew.  It takes a lot of courage to start up a business, especially at such a young age.  That being said, I have no doubt that he will be successful in any career he chooses.</p>
-			</article>
-		</div>
+			</div>
+		</main>
+		<!-- The conclusion of the main page and the beginning of the footer section -->
 		<footer>
 			<a href="https://en.wikipedia.org/wiki/Glassblowing">Wikipedia Site on Glassblowing</a>
 			<a class="toTop" href="#top">Back to Top</a><br />
