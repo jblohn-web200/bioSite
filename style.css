@@ -6,6 +6,10 @@ body {
 	background-color: #D6DEDE;
 }
 
+h1, h2, small {
+	color: #5F3735;
+}
+
 h1 {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
 	text-align: center;
@@ -13,7 +17,7 @@ h1 {
 	font-weight: 500;
 }
 
-h3 {
+h2 {
 	font-family: 'Open Sans', Verdana, Arial, sans-serif;
   position: relative;
   z-index: 1;
@@ -21,19 +25,21 @@ h3 {
   text-align: center;
 	margin: auto;
 	padding: 0 10px;
+	font-size: 19px;
+	font-weight: 600;
 }
 
-h3::before, h3::after {
+h2::before, h2::after {
   position: absolute;
   top: 51%;
   overflow: hidden;
   width: 50%;
   height: 1px;
   content: '\a0';
-  background-color: #6A3D3B;
+  background-color: #5F3735;
 }
 
-h3.noline::before, h3.noline::after {
+h2.noline::before, h2.noline::after {
   position: absolute;
   top: 51%;
   overflow: hidden;
@@ -43,26 +49,33 @@ h3.noline::before, h3.noline::after {
   background-color: #D6DEDE;
 }
 
-h3::before {
+h2::before {
 	clear: both;
   margin-left: -50%;
 	text-align: right;
 }
 
-h3 span {
+h2 span {
 	padding: 0px 10px;
 }
 
 footer {
-	font-family: 'Open Sans', Verdana, Arial, sans-serif;
 	text-align: center;
 	background-color: #A5B9B9;
-	padding-top: 20px;
+	padding: 20px 0px;
 	font-weight: 400;
 }
 
 footer a {
 	display: block;
+}
+
+small {
+	font-family: 'Open Sans', Verdana, Arial, sans-serif;
+	font-style: italic;
+	float: right;
+	background-color: #A5B9B9;
+	padding-right: 10px;
 }
 
 nav {
@@ -75,10 +88,6 @@ nav {
 
 nav a {
 	margin-right: 20px;
-}
-
-section {
-	margin: 0px auto;
 }
 
 figure {
@@ -107,13 +116,8 @@ figure img.shoppic {
 	height: 320px;
 }
 
-
 p, figcaption{
-	color: #2C4444; 
-}
-
-h1, h3 {
-	color: #5F3735;
+	color: #2C4444;
 }
 
 p {
@@ -142,7 +146,7 @@ a:link {
 }
 
 a:visited {
-	color: #517F7F;
+	color: #2C4444;
 }
 
 a:hover {
@@ -167,13 +171,13 @@ a:hover {
 	border-radius: 5px;
 }
 
-.column {
+.imagecolumn {
 	width: 33%;
 	float: left;
 	margin: 10px auto;
 }
 
-.pcolumn {
+.pgraphcolumn {
 	float: left;
 	width: 33%;
 	margin: 10px 5px;
